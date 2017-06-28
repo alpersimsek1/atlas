@@ -3,6 +3,7 @@ import json
 import pandas as pd
 from requests.auth import HTTPBasicAuth
 import csv
+
 '''
 r = requests.get('http://127.0.0.1:8000/emails/api/',auth=HTTPBasicAuth('filika','pikacu330'))
 #r = requests.get('http://127.0.0.1:8000/message/api/')
